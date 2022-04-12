@@ -1,15 +1,14 @@
 p {
     font-family: serif;
     color: white;
-    font-size: 25px
+    font-size: 25px;
+    margin: auto
 }
 
 .tl {
     font-family: serif;
     color: black
 }
-
-
 
 h1 {
     text-align: start;
@@ -397,7 +396,9 @@ img {
         left: 0%;
     }
     
-    input[type=text], select, textarea {
+{box-sizing: border-box;}
+
+input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
